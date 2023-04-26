@@ -18,6 +18,7 @@ theme = createTheme(theme, {
       },
       secondary: {
         main: '#EFCA08',
+        dark: '#eeb100',
       },
       background: {
         default: '#BBDEF0',
@@ -27,6 +28,7 @@ theme = createTheme(theme, {
       },
       error: {
         main: '#F08700',
+        dark: '#ea7900',
       },
       success: {
         main: '#8FBE00',
@@ -36,8 +38,8 @@ theme = createTheme(theme, {
         secondary: '#EFCA08',
       },
       divider: '#F49F0A',
-      contrastThreshold: 4.5,
-      tonalOffset: 0.3,
+       contrastThreshold: 3,
+       tonalOffset: 0.2,
     },
     typography: {      
       h1: {
@@ -61,6 +63,25 @@ theme = createTheme(theme, {
       button: {
         fontFamily: 'Sigmar',
       },
+      game: {
+        fontSize: 75,
+        textAlign: 'center',
+        [theme.breakpoints.up('md')]: {
+          fontSize: 125,
+        },        
+      },
+      font1: {
+        fontFamily: 'Roboto Slab',
+      },
+      font2: {
+        fontFamily: 'Fira Sans',        
+      },
+      font3: {
+        fontFamily: 'Playfair Display',        
+      },
+      font4: {
+        fontFamily: 'Parisienne',        
+      },    
     },
     shape: {
       borderRadius: 10,
